@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := PL2
+PRODUCT_RELEASE_NAME := PL2_sprout
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -55,6 +55,12 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libcutils \
     libgptutils \
     libz
+
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
+
+
 
 # Time Zone data for recovery
 PRODUCT_COPY_FILES += \
