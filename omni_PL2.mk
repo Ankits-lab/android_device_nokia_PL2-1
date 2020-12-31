@@ -58,7 +58,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 
 PRODUCT_PACKAGES += \
     qcom_decrypt \
-    qcom_decrypt_fbe
+    qcom_decrypt_fbe \
     tzdata_twrp
 
 
