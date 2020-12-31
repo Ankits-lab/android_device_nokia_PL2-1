@@ -61,9 +61,6 @@ PRODUCT_PACKAGES += \
     qcom_decrypt_fbe
     tzdata_twrp
 
-# Time Zone data for recovery
-PRODUCT_COPY_FILES += \
-    system/timezone/output_data/iana/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_PL2
