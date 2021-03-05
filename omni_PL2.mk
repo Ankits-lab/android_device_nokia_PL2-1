@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
+ALLOW_MISSING_DEPENDENCIES=true
 # Release name
-PRODUCT_RELEASE_NAME := PL2_sprout
+PRODUCT_RELEASE_NAME := DRG_sprout
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -63,8 +63,8 @@ PRODUCT_PACKAGES += \
 
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_PL2
-PRODUCT_DEVICE := PL2
+PRODUCT_NAME := omni_DRG
+PRODUCT_DEVICE := DRG_sprout
 PRODUCT_MANUFACTURER := FIH
 PRODUCT_BRAND := Nokia
-PRODUCT_MODEL := Nokia 6.1
+PRODUCT_MODEL := Nokia 6.1 Plus
