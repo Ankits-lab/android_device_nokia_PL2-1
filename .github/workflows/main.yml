@@ -29,9 +29,8 @@ jobs:
           wget "https://raw.githubusercontent.com/kiam001/relaeses_manifests/main/twrp-pl2.xml" -O .repo/local_manifests/manifest.xml
           repo sync
           export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_PL2-eng; mka recoveryimage
-          
-          - uses: actions/upload-artifact@v2
-            with:
-                name: my-artifact
-                path: $outdir/recovery.img
+      - uses: actions/upload-artifact@v2
+        with:
+          name: recovery.img
+          path: $outdir/recovery.img
                 
