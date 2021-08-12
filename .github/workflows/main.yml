@@ -23,6 +23,7 @@ jobs:
           mkdir ~/bin
           curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
           chmod a+x ~/bin/*
+          export PATH="${PATH}:~/bin"
           repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
           mkdir -p .repo/local_manifests
           wget "https://raw.githubusercontent.com/kiam001/relaeses_manifests/main/twrp-pl2.xml" -O .repo/local_manifests/manifest.xml
