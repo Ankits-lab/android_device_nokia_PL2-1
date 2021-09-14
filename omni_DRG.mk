@@ -63,8 +63,8 @@ PRODUCT_PACKAGES += \
 
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_PL2
-PRODUCT_DEVICE := PL2
+PRODUCT_NAME := omni_DRG
+PRODUCT_DEVICE := DRG
 PRODUCT_MANUFACTURER := FIH
 PRODUCT_BRAND := Nokia
-PRODUCT_MODEL := Nokia 6.1
+PRODUCT_MODEL := Nokia 6.1 Plus
