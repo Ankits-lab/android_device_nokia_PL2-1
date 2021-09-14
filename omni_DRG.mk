@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := PL2_sprout
+PRODUCT_RELEASE_NAME := DRG_sprout
 
 $(call inherit-product, build/target/product/embedded.mk)
 
